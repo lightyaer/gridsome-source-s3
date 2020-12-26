@@ -1,0 +1,33 @@
+{
+  "name": "gridsome-source-s3",
+  "description": "A Gridsome plugin to source json, images & markdown from AWS S3",
+  "private": true,
+  "license": "MIT",
+  "main": "gridsome.server.js",
+  "author": "Dhananjay Naik <mmnyed@gmail.com>",
+  "repository": "",
+  "keywords": [
+    "Gridsome",
+    "AWS S3",
+    "S3",
+    "source s3",
+    "source-s3",
+    "gridsome-source-plugin"
+  ],
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "aws-sdk": "^2.817.0",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

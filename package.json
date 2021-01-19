@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "gridsome.server.js",
   "author": "Dhananjay Naik <mmnyed@gmail.com>",
-  "repository": "",
+  "repository": "https://github.com/lightyaer/gridsome-source-s3.git",
   "keywords": [
     "Gridsome",
     "AWS S3",
@@ -20,8 +20,9 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@gridsome/source-filesystem": "^0.6.2",
     "aws-sdk": "^2.817.0",
+    "chalk": "^4.1.0",
+    "gridsome": "^0.7.23",
     "lodash": "^4.17.20"
   },
   "devDependencies": {
